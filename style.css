@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header hr {
+    border: 1px solid white;
+    margin: 10px auto;
+    width: 80%;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+article {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mainLeft {
+    flex: 1;
+}
+
+#mainRight {
+    flex: 2;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+section h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+section ul, section p {
+    margin: 10px 0;
+}
+
+/* Contact and Links */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p i {
+    margin-right: 8px;
+    color: #4CAF50;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.1rem;
+    }
+}
